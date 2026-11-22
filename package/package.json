@@ -1,0 +1,16 @@
+{
+  "name": "newsbrief-cli",
+  "version": "1.1.0",
+  "description": "Type any genre (sports, esports, GTA 6, finance, world security...) and get the top 10 things that happened in the last 24 hours, summarised by AI (Gemini or Claude), right in your terminal.",
+  "bin": {
+    "newsbrief": "bin/newsbrief.js",
+    "nb": "bin/newsbrief.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "files": ["bin", "src", "scripts", "README.md"],
+  "engines": { "node": ">=18" },
+  "keywords": ["news", "cli", "ai", "gemini", "claude", "terminal", "briefing"],
+  "license": "MIT"
+}
